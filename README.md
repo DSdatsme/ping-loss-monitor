@@ -86,8 +86,8 @@ where `localhost:5000` is your flask server endpoint.
 - Use the official docs to install grafana: [here](https://grafana.com/docs/grafana/latest/installation/)
 - Install the Grafana plugin `SimpleJson`: [here](https://grafana.com/grafana/plugins/grafana-simple-json-datasource/installation)
 - Make sure you restart the Grafana server after plugin is installed.
-- Open grafana UI, mostly it runs on `localhost:3000`. The default login creds would be admin, admin.
-- To setup DataSource, 
+- Open grafana UI, mostly it runs on `localhost:3000`. The default login creds would be `admin admin`.
+- To setup DataSource,
   - go to `http://localhost:3000/datasources`
   - Click `Add Datasource`
   - Search for SimpleJson and select it
@@ -96,3 +96,5 @@ where `localhost:5000` is your flask server endpoint.
   - Click `Save & Test`, There should be a green popup saying `Data source is working`.
 
 - Done, you can now create Grafana dashboards.
+
+> You can also checkout `sample-dashboard.json` if you just want to avoid the hassel for creating a new dashboard manually.
