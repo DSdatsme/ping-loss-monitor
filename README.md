@@ -1,6 +1,8 @@
 # Packet Loss Monitor
 
-This is a demo code to show how we can monitor a packet loss on grafana dashboard.
+This is a demo code to show how we can monitor internet packet loss on grafana dashboard on a laptop.
+
+The goal of this repo is to add understanding how one can develop custom monitoring agents, collect metrics and later visualize it on dashboards.
 
 ## Tools used
 
